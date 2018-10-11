@@ -90,7 +90,7 @@ public class Producer extends Thread{
         }
         
         if (!(p1 && p2 && p3)) {
-            System.out.println("Mercado cerrando");
+            System.out.println("Procesos Finalizados");
             System.exit(0);
         }
     }
